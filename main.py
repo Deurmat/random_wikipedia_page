@@ -1,4 +1,4 @@
-from wiki.session import WikiRequest
+from wiki.session import WikiRandomizer
 
-wiki_request = WikiRequest()
-random_url = wiki_request.get_random_page()
+wiki_randomizer = WikiRandomizer()
+random_url = wiki_randomizer.get_random_page()

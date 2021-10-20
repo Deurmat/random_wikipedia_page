@@ -2,7 +2,7 @@ import requests
 import logging
 
 
-class WikiRequest():
+class WikiRandomizer():
     def __init__(self):
         self.url = "https://en.wikipedia.org/w/api.php"
         self.params = {
